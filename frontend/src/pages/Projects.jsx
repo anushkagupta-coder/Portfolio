@@ -61,6 +61,55 @@ const Projects = () => {
       </a>
     </div>
   </div>
+
+  {/* Project 2 */}
+<div
+  style={{
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
+    gap: "20px",
+    maxWidth: "1000px",
+    marginBottom: "50px",
+    flexWrap: "wrap", // important for mobile
+  }}
+>
+  {/* Left side: Image */}
+  <div style={{ flex: "1 1 400px" }}>
+    <img
+      src="https://via.placeholder.com/400x250"
+      alt="Think Board Notepad"
+      style={{ width: "100%", borderRadius: "10px" }}
+    />
+  </div>
+
+  {/* Right side: Description */}
+  <div style={{ flex: "1 1 400px" }}>
+    <h3>Think Board Notepad</h3>
+    <p>
+      Think Board is a simple and efficient online notepad application built using React and localStorage.
+      It allows users to create, edit, and delete notes with a clean and responsive UI.
+      Future updates will include cloud sync and user authentication.
+    </p>
+    <a
+      href="https://github.com/anushkagupta-coder/think-board-notepad"
+      target="_blank"
+      rel="noreferrer"
+      style={{
+        display: "inline-block",
+        marginTop: "10px",
+        padding: "8px 16px",
+        backgroundColor: "#6C63FF",
+        color: "white",
+        borderRadius: "8px",
+        textDecoration: "none",
+      }}
+    >
+      View Code
+    </a>
+  </div>
+</div>
+
 </section>
 
   )
