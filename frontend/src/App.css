@@ -1,4 +1,5 @@
 .left-card{
+  position: fixed;          /* stick to viewport */
   top: 300px;                 /* vertical center */
   left: 5px;
   background-color: #f4978e ; 
@@ -30,6 +31,7 @@
 }
 
 .right-card {
+  position: fixed;          /* stick to viewport */
   top: 300px;                 /* vertical center */
   right: 5px;
   background-color:  #f4978e ; 

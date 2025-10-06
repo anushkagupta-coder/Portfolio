@@ -26,7 +26,7 @@ const Home = () => {
 
         <div className="left-card">
             <h2> Skills </h2>
-            <p> Full-stack developer | React | Node.js | MySQL,MongoDB |Git </p>
+            <p> Full-stack developer | React | Node.js | MySQL,MongoDB |GitHub </p>
         </div>
 
         <div className="right-card">
