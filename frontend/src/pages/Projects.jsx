@@ -92,7 +92,7 @@ const Projects = () => {
       Future updates will include cloud sync and user authentication.
     </p>
     <a
-      href="https://github.com/anushkagupta-coder/think-board-notepad"
+      href="https://github.com/anushkagupta-coder/MERN"
       target="_blank"
       rel="noreferrer"
       style={{
