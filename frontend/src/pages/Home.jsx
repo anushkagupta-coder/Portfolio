@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-
+import { Typewriter } from "react-simple-typewriter";
 const Home = () => {
   return (
     <section
@@ -19,6 +19,30 @@ const Home = () => {
         overflow: "hidden",
       }}
     >
+
+
+        <motion.h1
+          initial={{ y: -80, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 1 }}
+          style={{ fontSize: "3rem", marginBottom: "20px" }}
+        >
+          Hi, I'm{" "}
+          <span style={{ color: "#0077b6", fontWeight: "700" }}>
+            <Typewriter
+              words={["Anushka Gupta", "a Full-Stack Developer", "a React Enthusiast"]}
+              loop={0} // 0 = infinite
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={1500}
+            />
+          </span>
+        </motion.h1>
+        
+
+
       {/* Floating gradient animation background */}
       <motion.div
         animate={{ backgroundPosition: ["0% 50%", "100% 50%", "0% 50%"] }}
@@ -39,7 +63,7 @@ const Home = () => {
           initial={{ y: -80, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          style={{ fontSize: "3rem", marginBottom: "10px" }}
+          style={{ fontSize: "3rem", marginBottom: "10px"}}
         >
           Hi, I'm <span style={{ color: "#0077b6" }}>Anushka Gupta</span>
         </motion.h1>
@@ -62,7 +86,7 @@ const Home = () => {
           style={{ marginBottom: "30px", display: "flex", justifyContent: "center", gap: "15px" }}
         >
           <a
-            href="#projects"
+            href="projects"
             style={{
               padding: "12px 25px",
               borderRadius: "10px",
@@ -79,7 +103,7 @@ const Home = () => {
             My Projects
           </a>
           <a
-            href="#contact"
+            href="contact"
             style={{
               padding: "12px 25px",
               borderRadius: "10px",

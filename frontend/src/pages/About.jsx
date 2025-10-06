@@ -1,5 +1,5 @@
 import React from "react";
- 
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -11,54 +11,96 @@ const About = () => {
         alignItems: "center",
         justifyContent: "center",
         padding: "100px 20px",
-        backgroundColor: "#f8f9fa",
+        backgroundColor: "#f0f4f8",
         color: "#212529",
       }}
     >
       {/* Left: Text */}
-      <div style={{ flex: "1 1 400px", maxWidth: "500px", padding: "20px" }}>
-        <h2 style={{ fontSize: "2.5rem", marginBottom: "20px", color: "#6C63FF" }}>About Me</h2>
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 1 }}
+        style={{ flex: "1 1 400px", maxWidth: "500px", padding: "20px" }}
+      >
+        <h2
+          style={{
+            fontSize: "2.5rem",
+            marginBottom: "20px",
+            color: "#6C63FF",
+            position: "relative",
+          }}
+        >
+          About Me
+          <span
+            style={{
+              position: "absolute",
+              bottom: -5,
+              left: 0,
+              height: "4px",
+              width: "60px",
+              backgroundColor: "#7209b7",
+              borderRadius: "2px",
+            }}
+          ></span>
+        </h2>
         <p style={{ fontSize: "1.2rem", lineHeight: "1.6", marginBottom: "20px" }}>
-          Hi! I'm Anushka Gupta, a passionate Computer Engineering student who loves web development. I enjoy creating interactive and user-friendly websites, learning new technologies, and building projects that solve real-world problems.
+          Hi! I'm Anushka Gupta, a passionate Computer Engineering student who loves web development.
+          I enjoy creating interactive and user-friendly websites, learning new technologies, and building projects that solve real-world problems.
         </p>
         <p style={{ fontSize: "1.2rem", lineHeight: "1.6", marginBottom: "20px" }}>
-          My main focus is improving my skills in React, JavaScript, and modern web development practices. I am constantly exploring new tools and techniques to enhance my coding abilities and bring creative ideas to life.
+          My main focus is improving my skills in React, JavaScript, and modern web development practices.
+          I am constantly exploring new tools and techniques to enhance my coding abilities and bring creative ideas to life.
         </p>
 
         {/* Download Resume Button */}
-        <a
-          href="/Internship Resume pdf.pdf" // file in public folder
+        <motion.a
+          href="/Internsip_Resume.pdf"//resume in public folder
           download
+          whileHover={{ scale: 1.05, backgroundColor: "#7209b7" }}
           style={{
             display: "inline-block",
-            padding: "10px 25px",
+            padding: "12px 28px",
             backgroundColor: "#6C63FF",
             color: "white",
             borderRadius: "8px",
             textDecoration: "none",
             fontWeight: "500",
+            boxShadow: "0 5px 15px rgba(0,0,0,0.2)",
             transition: "all 0.3s ease",
           }}
-          onMouseOver={(e) => e.target.style.transform = "scale(1.05)"}
-          onMouseOut={(e) => e.target.style.transform = "scale(1)"}
         >
           Download Resume
-        </a>
-      </div>
+        </motion.a>
+      </motion.div>
 
       {/* Right: Image */}
-      <div style={{ flex: "1 1 300px", maxWidth: "400px", padding: "20px", textAlign: "center" }}>
-        <img
-          src=" "
+      <motion.div
+        initial={{ x: 100, opacity: 0 }}
+        whileInView={{ x: 0, opacity: 1 }}
+        viewport={{ once: true, amount: 0.3 }}
+        transition={{ duration: 1 }}
+        style={{
+          flex: "1 1 300px",
+          maxWidth: "400px",
+          padding: "20px",
+          textAlign: "center",
+        }}
+      >
+        <motion.img
+          src=" " // Add your image path here
           alt="Anushka Gupta"
+          whileHover={{ scale: 1.05 }}
+          animate={{ y: [0, -10, 0] }}
+          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           style={{
             width: "100%",
             maxWidth: "300px",
             borderRadius: "50%",
-            boxShadow: "0 10px 20px rgba(0,0,0,0.2)",
+            boxShadow: "0 15px 30px rgba(0,0,0,0.2)",
           }}
         />
-      </div>
+      </motion.div>
     </section>
   );
 };
