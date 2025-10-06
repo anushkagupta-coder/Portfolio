@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .left-card{
   position: fixed;          /* stick to viewport */
   top: 300px;                 /* vertical center */
