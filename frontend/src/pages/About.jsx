@@ -27,7 +27,7 @@ const About = () => {
 
         {/* Download Resume Button */}
         <a
-          href="/Anushka_Gupta_Resume.pdf" // Add your resume file in public folder
+          href="/Internship Resume pdf.pdf" // file in public folder
           download
           style={{
             display: "inline-block",
