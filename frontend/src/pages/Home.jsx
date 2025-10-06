@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const Home = () => {
   return (
     <section id="home" style={{ minHeight: "100vh", display: "flex", alignItems: "center", flexDirection: "column", 
-    justifyContent: "flex-start", background: "linear-gradient(135deg, #eb60e2ff, #4d0747ff)", 
+    justifyContent: "flex-start", background: "linear-gradient(135deg, #47b7d9ff)", 
     color: "white", textAlign: "center", padding: "0px 20px", }}>
       
       <div>
@@ -24,14 +24,15 @@ const Home = () => {
           <a href="anushka612004@gmail.com"><FaEnvelope /></a>
         </div>
 
-        <div className="home-card">
-            <h2>3rd Year student </h2>
-            <p>Full-stack developer | React | Node.js | MySQL,MongoDB |Git  </p>
+        <div className="left-card">
+            <h2> Skills </h2>
+            <p> Full-stack developer | React | Node.js | MySQL,MongoDB |Git </p>
         </div>
 
         <div className="right-card">
-            <h2>CGPA - 9.62 </h2>
-            <p>2027 Graduate Looking for industrial experience 
+            
+            <p>3rd Year student CGPA - 9.62 </p>
+                <p>2027 Graduate Looking for industrial experience 
                 and exposure in IT industry </p>
         </div>
 

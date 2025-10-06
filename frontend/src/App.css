@@ -1,10 +1,10 @@
-.home-card {
+.left-card{
   position: fixed;          /* stick to viewport */
   top: 300px;                 /* vertical center */
   left: 5px;
-  background-color: #fff; 
+  background-color: #2f8bb5; 
   padding: 25px;
-  color: black;
+  color: rgb(3, 15, 126);
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* soft shadow */
   max-width: 600px;
@@ -12,19 +12,45 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.home-card:hover {
+.left-card:hover {
   transform: translateX(10px); /* Right On Hover */
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
-.home-card h2 {
+.left-card h2 {
   margin-bottom: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS';
-  font-size: 2em;
-  color: rgb(104, 28, 28);
+  font-size: 1.7em;
+  color: #FDFCDC;
   text-decoration: double;
 }
 
-.home-card p {
+.left-card p {
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.right-card {
+  position: fixed;          /* stick to viewport */
+  top: 300px;                 /* vertical center */
+  right: 5px;
+  background-color: #2f8bb5; 
+  padding: 25px;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* soft shadow */
+  max-width: 500px;
+  text-align: light;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.right-card:hover {
+  transform: translateX(-10px); /* left On Hover */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.right-card p {
   font-size: 1rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 20px;
