@@ -45,11 +45,11 @@ const About = () => {
           ></span>
         </h2>
         <p style={{ fontSize: "1.2rem", lineHeight: "1.6", marginBottom: "20px" }}>
-          Hi! I'm Anushka Gupta, a passionate Computer Engineering student who loves web development.
+          Hi! I'm Anushka Gupta, a passionate Computer Engineering student who loves Coding.
           I enjoy creating interactive and user-friendly websites, learning new technologies, and building projects that solve real-world problems.
         </p>
         <p style={{ fontSize: "1.2rem", lineHeight: "1.6", marginBottom: "20px" }}>
-          My main focus is improving my skills in React, JavaScript, and modern web development practices.
+          My main focus is improving my skills in React, JavaScript, and to learn Cloud Computing and new technologies.
           I am constantly exploring new tools and techniques to enhance my coding abilities and bring creative ideas to life.
         </p>
 
