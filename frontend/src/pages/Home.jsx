@@ -17,9 +17,9 @@ const Home = () => {
 
         {/* Social icons */}
         <div style={{ fontSize: "1.5rem", display: "flex", justifyContent: "center", gap: "20px" }}>
-          <a href="https://github.com/" target="_blank" rel="noreferrer"><FaGithub /></a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-          <a href="mailto:yourmail@example.com"><FaEnvelope /></a>
+          <a href="https://github.com/anushkagupta-coder" target="_blank" rel="noreferrer"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/anushka-gupta-aa9b40286/" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+          <a href="anushka612004@gmail.com"><FaEnvelope /></a>
         </div>
       </div>
 
