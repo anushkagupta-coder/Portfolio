@@ -1,10 +1,9 @@
 .left-card{
-  position: fixed;          /* stick to viewport */
   top: 300px;                 /* vertical center */
   left: 5px;
-  background-color: #2f8bb5; 
+  background-color: #f4978e ; 
   padding: 25px;
-  color: rgb(3, 15, 126);
+  color: #fcf4dd;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* soft shadow */
   max-width: 600px;
@@ -20,23 +19,22 @@
   margin-bottom: 15px;
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS';
   font-size: 1.7em;
-  color: #FDFCDC;
+  color: #fcf4dd;
   text-decoration: double;
 }
 
 .left-card p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 20px;
 }
 
 .right-card {
-  position: fixed;          /* stick to viewport */
   top: 300px;                 /* vertical center */
   right: 5px;
-  background-color: #2f8bb5; 
+  background-color:  #f4978e ; 
   padding: 25px;
-  color: black;
+  color: #fcf4dd;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* soft shadow */
   max-width: 500px;
@@ -51,7 +49,7 @@
 
 
 .right-card p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 20px;
 }

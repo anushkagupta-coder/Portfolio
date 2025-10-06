@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 const Home = () => {
   return (
     <section id="home" style={{ minHeight: "100vh", display: "flex", alignItems: "center", flexDirection: "column", 
-    justifyContent: "flex-start", background: "linear-gradient(135deg, #47b7d9ff)", 
-    color: "white", textAlign: "center", padding: "0px 20px", }}>
+    justifyContent: "flex-start", background: "linear-gradient(135deg, #95b8d1)", 
+    color: "#fcf4dd", textAlign: "center", padding: "0px 20px", }}>
       
       <div>
         <h1 style={{ fontSize: "2.5rem", marginBottom: "10px" }}>Hi, I'm Anushka Gupta</h1>
@@ -13,7 +13,7 @@ const Home = () => {
         
         {/* Buttons or links to projects/contact */}
         <div style={{ marginBottom: "20px" }}>
-          <a href="projects" style={{ marginRight: "10px", padding: "10px 20px", borderRadius: "8px", backgroundColor: "white", color: "#101278ff", fontWeight: "bold", textDecoration: "none", transition: "0.3s" }}>My Projects</a>
+          <a href="projects" style={{ marginRight: "10px", padding: "10px 20px", borderRadius: "8px", backgroundColor: "white", color: "#0081A7", fontWeight: "bold", textDecoration: "none", transition: "0.3s" }}>My Projects</a>
           <a href="contact" style={{ padding: "10px 20px", borderRadius: "8px", border: "2px solid white", color: "white", fontWeight: "bold", textDecoration: "none", transition: "0.3s" }}>Contact Me</a>
         </div>
 
