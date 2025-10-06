@@ -1,6 +1,31 @@
-/*.component {
-  padding: 20px;
-  text-align: center;
-  color: brown;
-  background-color: #f9f9f9;
-}*/
+.home-card {
+  position: fixed;          /* stick to viewport */
+  top: 300px;                 /* vertical center */
+  left: 5px;
+  background-color: #fff; 
+  padding: 25px;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* soft shadow */
+  max-width: 600px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-card:hover {
+  transform: translateX(10px); /* Right On Hover */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+.home-card h2 {
+  margin-bottom: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS';
+  font-size: 2em;
+  color: rgb(104, 28, 28);
+  text-decoration: double;
+}
+
+.home-card p {
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 20px;
+}
