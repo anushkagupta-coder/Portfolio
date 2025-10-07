@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: linear-gradient(135deg, #a2d2ff, #cdb4db, #ffc8dd);
+}
+
 .left-card{
   position: fixed;          /* stick to viewport */
   top: 300px;                 /* vertical center */

@@ -10,8 +10,8 @@ const About = () => {
         flexWrap: "wrap",
         alignItems: "center",
         justifyContent: "center",
-        padding: "100px 20px",
-        backgroundColor: "#f0f4f8",
+        paddingLeft: "20px",
+        // background: "linear-gradient(135deg, #a2d2ff, #cdb4db, #ffc8dd)",
         color: "#212529",
       }}
     >

@@ -2,8 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
+import About from "./About";
 const Home = () => {
   return (
+    <>
     <section
       id="home"
       style={{
@@ -12,7 +14,7 @@ const Home = () => {
         alignItems: "center",
         flexDirection: "column",
         justifyContent: "center",
-        background: "linear-gradient(135deg, #a2d2ff, #cdb4db, #ffc8dd)",
+        // background: "linear-gradient(135deg, #a2d2ff, #cdb4db, #ffc8dd)",
         color: "#333",
         textAlign: "center",
         padding: "40px 20px",
@@ -189,6 +191,8 @@ const Home = () => {
         </div>
       </div>
     </section>
+    <About/>
+    </>
   );
 };
 
