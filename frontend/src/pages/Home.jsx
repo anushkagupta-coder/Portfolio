@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, } from "react-icons/fa";
+import {SiLeetcode} from "react-icons/si";
 import { Typewriter } from "react-simple-typewriter";
 import About from "./About";
 const Home = () => {
@@ -32,7 +33,7 @@ const Home = () => {
           Hi, I'm{" "}
           <span style={{ color: "#0077b6", fontWeight: "700" }}>
             <Typewriter
-              words={["Anushka Gupta", "a Full-Stack Developer", "a React Enthusiast"]}
+              words={["Anushka Gupta", "a Full-Stack Developer"]}
               loop={0} // 0 = infinite
               cursor
               cursorStyle="|"
@@ -139,6 +140,9 @@ const Home = () => {
           <a href="mailto:anushka612004@gmail.com" style={{ color: "#d62828" }}>
             <FaEnvelope />
           </a>
+          <a href="https://leetcode.com/u/anushkagupta123/" style={{ color: "#151414" }}>
+            <SiLeetcode /> 
+          </a>
         </motion.div>
 
         {/* Cards Section */}
@@ -167,7 +171,7 @@ const Home = () => {
             }}
           >
             <h2 style={{ color: "#0077b6" }}>Skills</h2>
-            <p>Full-stack Developer | React | Node.js | MongoDB | MySQL | GitHub</p>
+            <p>Full-stack Developer | React | Node.js | MongoDB | MySQL | GitHub |DSA |Next and Supabase</p>
           </motion.div>
 
           {/* Right Card */}
@@ -186,7 +190,7 @@ const Home = () => {
             }}
           >
             <h2 style={{ color: "#7209b7" }}>About Me</h2>
-            <p>3rd Year Student | CGPA 9.62 | Aspiring Developer seeking industrial exposure 💼</p>
+            <p>175+ Leetcode questions | CGPA 9.62 | Aspiring Engineer seeking industrial exposure 💼</p>
           </motion.div>
         </div>
       </div>
