@@ -55,7 +55,7 @@ const About = () => {
 
         {/* Download Resume Button */}
         <motion.a
-          href="/Anushka_Gupta_Resume.pdf"//resume in public folder
+          href="/Anushka-Gupta-Resume.pdf"//resume in public folder
           download
           whileHover={{ scale: 1.05, backgroundColor: "#7209b7" }}
           style={{
